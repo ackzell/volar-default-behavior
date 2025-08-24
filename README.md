@@ -1,6 +1,24 @@
 # volar-default-behavior
 
-This template should help get you started developing with Vue 3 in Vite.
+<img width="2168" height="1403" alt="image" src="https://github.com/user-attachments/assets/4d848b4b-ad0e-435d-99ae-a06941bbda8d" />
+
+This is a brand new app in Vue 3 + Vite.
+
+What this showcases is the fact that Volar 3.0.6 (at the time of creation of this repo) doesn't provide a Quick Fix entry for importing the missing components while editing the `<template>` tag. 
+
+I added a linting "guard" to show me what components are missing, but the only workaround is to either: 
+
+* Do the imports manually (TS works fine on the `<script setup>` tag) with path completion and module suggestion intellisense while typing.
+  
+  <img width="830" height="585" alt="image" src="https://github.com/user-attachments/assets/d96e3ec8-5547-4020-9853-13a386112143" />
+
+* OR use something like https://github.com/unplugin/unplugin-vue-components?tab=readme-ov-file (not my cup of tea, I want to see where my deps are coming from. I could probably change my mind on the subject in the future, but not my stance right now).
+
+
+# Original Readme:
+
+<details>
+  This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
@@ -31,3 +49,4 @@ npm run dev
 ```sh
 npm run build
 ```
+</details>
